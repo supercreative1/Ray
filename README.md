@@ -1,4 +1,4 @@
-# Vibe
+# Ray
 
 AI-powered development platform that lets you create web applications by chatting with AI agents in real-time sandboxes.
 
@@ -52,15 +52,15 @@ e2b auth login
 # Navigate to the sandbox template directory
 cd sandbox-templates/nextjs
 
-# Build the template (replace 'your-template-name' with your desired name)
-e2b template build --name your-template-name --cmd "/compile_page.sh"
+# Build the template (replace 'ray-nextjs' with your desired name)
+e2b template build --name ray-nextjs --cmd "/compile_page.sh"
 ```
 
 After building the template, update the template name in `src/inngest/functions.ts`:
 
 ```typescript
-// Replace "vibe-nextjs-test-2" with your template name
-const sandbox = await Sandbox.create("your-template-name");
+// Replace "ray-nextjs" with your template name
+const sandbox = await Sandbox.create("ray-nextjs");
 ```
 
 ## Development

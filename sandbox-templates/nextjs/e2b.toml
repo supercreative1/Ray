@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (h3svwsaxt710dubnfjyt) or template name (ray-nextjs) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("ray-nextjs") # Sync sandbox
+# sandbox = await AsyncSandbox.create("ray-nextjs") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('ray-nextjs')
+
+team_id = "03c6c0ff-b502-48fc-9b06-b608933d53af"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "ray-nextjs"
+template_id = "h3svwsaxt710dubnfjyt"
